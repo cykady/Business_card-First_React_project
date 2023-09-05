@@ -1,0 +1,86 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #1A1B21;
+  border-radius: 10px;
+  width: 317px;
+  height: auto;
+  color: #FFF;
+}
+main{
+  padding: 1rem 1.5rem;
+}
+img {
+  width: 100%;
+}
+h1, h2, h3, h4, h5, h6, p{
+  margin: 0;
+  padding: 0;
+}
+main h1{
+  font-weight: 700;
+  font-size: 1.5625rem;
+  margin-bottom: 0.24em;
+}
+main h4{
+  color: #7aaae4;
+  font-size: 0.8125rem;
+  font-weight: 400;
+  margin-bottom: 0.6923em;
+}
+main h5{
+  font-size: 0.64rem;
+}
+
+main .btn-container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.4375em;
+} 
+a.btn{
+  display: flex;
+  width: 115px;
+  font-size: 0.875rem;
+  margin-bottom: 2em;
+  padding: 9px 0;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 6px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  font-weight: 500;
+  border: none;
+  text-decoration: none;
+}
+.email{
+  background-color: #FFF;
+  color: #1A1B21;
+}
+.linkedin{
+  color: #FFF;
+  background: #5093E2;
+}
+h2{
+  text-align: start;
+  font-size: 1rem;
+  margin-bottom: .5em;
+}
+p{
+  text-align: start;
+  color: #DCDCDC;
+  font-size: 0.64rem;
+  line-height: 150%;
+  font-weight: 500;
+  margin-bottom: 1.6875em;
+  letter-spacing: 1px;
+}
+.icons-container{
+  border-radius: 0 10px 10px 0;
+  margin-top: 1.4375em;
+}
+.icons-container svg{
+  width: 25px;
+  height: 25px;
+  margin: 1.5rem 1.5rem 0 0;
+}
